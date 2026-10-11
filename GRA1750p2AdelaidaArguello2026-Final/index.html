@@ -1,23 +1,36 @@
 <!doctype html>
-<html>
-<head>
+<html><head>
 <meta charset="utf-8">
 <title>Thai Tea | Adelaida Arguello, 2026</title>
+	<link rel="stylesheet" href="https://use.typekit.net/mtq7sjg.css">
 <style>
 body {
     margin: 0;
+	background-image: linear-gradient(0deg,lightblue,mediumblue);
+	font-family: "omnes-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+
 }
 wrapper {
-    width: 1000px;
+    width: 1200px;
     display: block;
     margin: auto;
+	background-color: rgba(1,0,255,0.20);
+	border: 15px solid; color: #FF550D;
+	border-radius: 10px;
+	padding: 25px;
+
 }
 h1 {
     display: inline;
+	font-family: "omnes-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 .logo {
     vertical-align: middle;
-    width: 200px;
+    width: 300px;
 }
 header {
     text-align: center;
@@ -27,12 +40,37 @@ header {
     width: 100%;
 }
 .container {
-	display: grid;
-	grid-template-columns: 20% 80%;
-	gap: 16px;
-}
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	grid-template-columns: 50% 50%;
+	gap: 32px;
+	
+	}
+	.container > * {
+		border: 3px solid; color: #FF550D;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		text-align: center;
+		padding: 30px 20px;
+		min-height: 480px;
+		flex: 1;
+		max-width: 450px;
+		font-size: 40px!important;
+		margin-bottom: 16px;
+		border-radius: 12px;
+		background-color: aliceblue
+	}
+	
 	li{
-		margin-bottom: 8px
+		margin-bottom: 8px;
+			font-size: 25px;
+	}
+	.container h2{
+		font-size: 38;
+		margin-bottom: 16px;
 	}
 </style>
 </head>
@@ -44,7 +82,7 @@ header {
   </header>
   <main> <img src="Thaiteabanner.jpg" class="banner" />
     <h2>Thai Tea Recipe</h2>
-    <p>Thai tea is a sweet, creamy, and aromatic beverage made from strong black tea, milk, sugar, and often spices, known for its distinctive orange color and rich flavor.</p>
+    <p style="font-size: 1.9rem;">Thai tea is a sweet, creamy, and aromatic beverage made from strong black tea, milk, sugar, and often spices, known for its distinctive orange color and rich flavor.</p>
     <div class="container">
 			
     <section>
@@ -54,18 +92,20 @@ header {
         <li>Sugar</li>
         <li>Water</li>
         <li>Half and  Half </li>
+		  <li>Ice Cubes</li>
       </ul>
     </section>
     <section>
       <h3>Steps</h3>
       <ol>
-        <li>Stovetop</li>
-        <li>8 cups of water</li>
+        <li>Bring 8 cups of water to a rolling boil in a pot</li>
         <li>2 cups Thai tea mix</li>
         <li>1 &frac12; cup sugar</li>
-        <li>Bring to a boil for 15 minutes</li>
+		  <li>Reduce the heat and let it simmer for three minutes and then turn off the stove</li>
+        <li>Let it the tea cool down after simmering for three minutes</li>
         <li>Strain the liquid with a straining cloth</li>
-        <li>Add your Half and Half until the color turns to a bright orange</li>
+        <li>Assemble the drink with a tall glass of ice cups, add tea into the glass until it is about three quarters full.</li>
+		  <li> Top with milk of choice, for my drink, I use Half and Half. Pour your milk until it turns into a bright orange</li>
       </ol>
     </section>
     </div>
